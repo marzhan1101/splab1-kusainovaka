@@ -13,7 +13,7 @@
     int i, j, num, temp;
  int c;
 FILE *file;
-file = fopen("text.txt", "r");
+file = fopen("text", "r");
 if (file) {
     while ((c = getc(file)) != EOF)
 
